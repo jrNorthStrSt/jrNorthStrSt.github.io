@@ -1,0 +1,446 @@
+/*
+  Developed by: ES Block, LLC - esblock.com - authoringhub.com
+  Copyright 2012-2016 ES Block, LLC All rights reserved.
+*/
+html{zoom:100%;}
+@font-face
+{
+    font-family: ArialBlack, arialblack, 'Arial Black', 'arial black';
+    src: url(../resources/fonts/ArialBlack.ttf);
+}
+@font-face
+{
+    font-family: DINMit;
+    src: url(../resources/fonts/dinmittelschriftstd-webfont.ttf), url(../resources/fonts/dinmittelschriftstd-webfont.woff);
+}
+
+@font-face
+{
+    font-family: 'FF DIN Bold';
+    src: url(../resources/fonts/FF_DIN_Bold.otf);
+}
+@font-face
+{
+    font-family: 'FF DIN Condensed Bold';
+    src: url(../resources/fonts/FF_DIN_Condensed_Bold.otf);
+}
+@font-face
+{
+    font-family: 'PlantinStd';
+    src: url(../resources/fonts/PlantinStd.otf);
+}
+@font-face
+{
+    font-family: 'PlantinStd Bold';
+    src: url(../resources/fonts/PlantinStd-Bold.otf);
+}
+
+/* ===================================================================================== */
+/* 0 - Base
+/* ===================================================================================== */
+body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 100%;
+  background: #eee;
+  min-height: 494px;
+  min-width: 700px;
+  overflow: hidden;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+.thm-custom-verticalscroll .thm-page-content-object::-webkit-scrollbar-track {
+      background-color: #DDDFED;
+      border-radius: 20px;
+}
+
+.thm-custom-verticalscroll .thm-page-content-object::-webkit-scrollbar {
+    background-color: #DDDFED;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+} 
+
+.thm-custom-verticalscroll .thm-page-content-object::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background-color: #CCC9DA;
+}
+
+div{ -webkit-tap-highlight-color: rgba(0,0,0,0); }
+#theme{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: transparent;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  zoom:1;
+}
+#theme, #thm-materials, .thm-page, .thm-chapter, .thm-page-contents,
+#thm-progress, #thm-progress .thm-progress-wrapper,#thm-progress .thm-progress-move{
+    height:514px;
+    width:700px;
+}
+#thm-materials, .thm-page, .thm-chapter, .thm-page-contents{
+    height:394px;
+}
+
+#thm-header{
+  height: 70px;
+  z-index: 1;
+}
+#thm-header-logo{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-size: auto 100%;
+    background-repeat:no-repeat;
+}
+#thm-contents-list {
+    width: 50%;
+    float: left;
+    height: 70px;
+    overflow: hidden;
+}
+#thm-contents-list ol{
+    position: relative;
+    top: 60%;
+    right: 5px;
+}
+#thm-contents-list ol h4{display: none;}
+#thm-contents-list ol, #thm-contents-list ol ul{list-style: none; text-align:right;}
+#thm-contents-list ol ul>li{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    color: transparent;
+    background-color: rgb(244, 244, 244);
+    border-radius: 6px;
+    border: solid 2px #8c8c8c;
+    cursor: pointer
+}
+#thm-contents-list ol ul>li.thm-contents-page-current{
+    background-color: #434343;
+border-color: #434343;
+}
+#thm-logo{
+    height: 80%;
+    width: 200px;
+    position: absolute;
+    background-repeat: no-repeat; 
+    background-size: auto 100%;
+    background-position-x: right;
+    right: 0px;
+    margin-right: 10px;
+    top:50%;
+    transform: translateY(-50%);
+}
+#thm-footer-resource{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#theme h1{
+  font-family: ArialBlack, 'Arial Black', 'Arial Bold', Arial;
+}
+#thm-loading{height: 100%;width: 100%;background:white;}
+#thm-loading .thm-page-loading{ height: inherit;width: inherit;}
+
+
+/* ===================================================================================== */
+/* 00 - Pages
+/* ===================================================================================== */
+#thm-materials{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.thm-chapter-page-0 .thm-page-header{display: none;}
+.thm-page, .thm-chapter{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  background: white;
+}
+.thm-page-header{
+    display: none;position: absolute; 
+    margin-left: 10px;
+    margin-top:23px;
+    background-color: #c00;
+    color: white;
+    padding: 6px;
+}
+.thm-page-header h3{display: none;}
+.thm-page-header h4{
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0px;
+  font-weight: bold;
+}
+.thm-page-loading{
+  background: url('../resources/loading.gif') no-repeat;
+  background-position: 50% 50%;
+}
+/* ===================================================================================== */
+/* 00 - Pages Content
+/* ===================================================================================== */
+.thm-chapter .thm-chapter-page-0 .thm-page-header {
+  top:290px;left:140px;
+}
+.thm-chapter-0 .thm-chapter-page-0 .thm-page-header {display: none;}
+
+.thm-chapter-page-0 h1{text-transform: uppercase;font-family: ArialBlack,'Arial Black', 'Arial Bold', Arial;}
+
+.thm-page-content p:first-child{padding:0px; margin:0px }
+.thm-page-content-element{min-height: 100%;}
+
+.thm-icon-pdf{cursor: pointer;}
+/* tables */
+.thm-page-content-table, .thm-page-content-table th,.thm-page-content-table td{border-color: #000; border-style: solid; border-spacing: 0px}
+.thm-page-content-table tbody tr td{ border-top: none;border-bottom: none; }
+
+.thm-term-highlight{color:#a44d85; font-weight:bold;}
+
+/* bottom */
+#thm-footer{
+    position: absolute;
+    height: 50px;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    border-top:solid 1px #ccc;
+}
+#thm-footer-title{
+    height: 100%;
+}
+#thm-footer-title h5{
+margin: 0;
+top: 50%;
+transform: translateY(-50%);
+position: relative;
+display: block;
+padding: 0 10px;
+font-size: 20px;
+font-weight: 600;
+}
+#thm-footer-disclosure{
+    margin: 0px;
+    padding-left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.thm-progress-wrapper{
+  background: red;
+  height: 2px;
+  margin: 15px;
+  position: relative;
+  overflow:hidden;
+}
+.thm-progress-move{
+  background: red;
+  height: 2px;
+  left: 3px;
+  position: relative;
+}
+#thm-progress, #thm-progress .thm-progress-wrapper,#thm-progress .thm-progress-move{
+  height: 2px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#thm-progress .thm-progress-move{
+  background: red;
+  display: none;
+}
+.thm-disclosure{
+  margin-top: 12px;
+  width: 640px;
+  font-size:9px;
+  margin-left:6px;
+}
+
+
+/* ===================================================================================== */
+/*  - quiz classes
+/* ===================================================================================== */
+.thm-page-content-assessment-quiz{
+    font-size: 16px;    
+}
+
+.thm-page-content-assessment-quiz-singleView .thm-page-content-assessment-quiz-question-answers{padding-bottom:15px;}
+.thm-page-content-assessment-quiz-question-number{
+    font-weight: 600;
+}
+
+.thm-page-content-assessment-quiz-main{
+    padding-top: 6px;
+}
+
+.thm-page-content-assessment-quiz-answer{
+    padding-top: 10px;
+    display: table;
+}
+.thm-page-content-assessment-quiz-answer.user-answer.incorrect-answer .thm-page-content-assessment-quiz-answer-letter{
+    background-color: red;
+}
+.thm-page-content-assessment-quiz-answer.user-answer.correct-answer .thm-page-content-assessment-quiz-answer-letter{
+    background-color: green;
+}
+
+.thm-page-content-assessment-quiz-answer-letter{
+width: 30px;
+height: 30px;
+background-color: gray;
+color: white;
+text-align: center;
+line-height: 30px;
+font-size: 20px;
+}
+.thm-page-content-assessment-quiz-answer-text{
+    width: calc(100% - 50px);
+    padding-left: 10px;
+    min-height: 30px;
+}
+.lang-rtl .thm-page-content-assessment-quiz-answer-text{
+    padding-right: 10px;
+}
+.thm-page-content-assessment-quiz-answer-letter, .thm-page-content-assessment-quiz-answer-text{
+    display: table-cell;
+    vertical-align:middle; 
+    cursor: pointer;
+}
+
+.thm-page-content-assessment-quiz-question-feedback{
+    padding-top: 10px;
+}
+.lang-rtl .thm-page-content-assessment-quiz-question-feedback{
+	border-left:none;
+	border-right: solid 6px #00AEEF;
+	padding-right: 6px;
+	background:none;
+}
+.thm-page-content-assessment-quiz-controls{
+    position: relative;
+    text-align: right;
+    padding: 10px;
+}
+.thm-page-content-assessment-quiz-controls-btn{
+font-size: 14px;
+padding-top: 7px;
+}
+
+.thm-quiz-question-number{
+    display:inline-block;
+    background-color: #00AEEF;color:white; border-radius: 20px; font-family: roboto, arial; font-weight: bold; font-size: 20px; height: 32px; min-width: 32px; padding-left: 5px; padding-right: 5px; text-align: center; margin-left: 8px; margin-right: 8px;
+}
+.thm-quiz-question-title{display:inline;}
+
+/* ===================================================================================== */
+/*  - custom theme classes
+/* ===================================================================================== */
+
+.thm-custom-verticalscroll .thm-page-content-object{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 20px;
+}
+.thm-custom-certificate-page{
+    border: solid transparent 5em;
+    border-image: url("../resources/certificate_bg.png") 114 round stretch;
+}
+
+.video-js{
+    background-color: #fff;
+}
+.video-js .vjs-big-play-button{display: none;}
+
+.thm-confirm-prompt-wrapper{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+background-color: #eee;
+padding: 20px;
+text-align: center;
+z-index: 9999;
+}
+.thm-confirm-prompt-wrapper .thm-modal-btn{padding: 10px;
+background-color: rgb(0, 174, 239);
+color: white;
+margin: 10px;
+line-height: 40px;
+border-radius: 6px;
+cursor: pointer}
+
+.thm-scorm-completeBtn{cursor: pointer}
+
+
+@media print
+{   
+    #theme{
+        margin-top: 0px !important;
+    }
+    .thm-nav
+    {
+        display: none !important;
+    }
+    .thm-print-btn{
+        display: none !important;
+    }
+    .thm-scorm-completeBtn{
+        display: none !important;
+    }
+    #thm-footer{
+        display: none !important;
+    }
+	.thm-print-hide{display: none !important;}
+    .thm-page-contents {
+		overflow: visible !important;
+	}
+}
+
+
+/*IE6,7,8*/
+@media \0screen\,screen\9 {
+    #theme { 
+      top:0px !important; 
+      left:0px !important;
+      /*width:100% !important;*/
+    }
+    #theme-inner{
+        width:730px;
+        margin:auto;
+        position: relative;
+    }
+    #thm-confirm-prompt{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0px;
+    }
+    .thm-confirm-prompt-wrapper{
+        position: relative;
+        margin: auto;
+        top:150px;
+        left:auto;
+    }
+}

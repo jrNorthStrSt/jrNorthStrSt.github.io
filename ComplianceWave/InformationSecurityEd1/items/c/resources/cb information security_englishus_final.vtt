@@ -1,0 +1,418 @@
+﻿WEBVTT
+
+00:00:01.500 --> 00:00:11.720
+[Music]
+
+00:00:12.270 --> 00:00:13.770
+Have you ever been
+in a situation
+
+00:00:13.770 --> 00:00:15.820
+where getting something
+done urgently meant
+
+00:00:15.820 --> 00:00:18.970
+that you were unable to follow
+a policy or procedure precisely?
+
+00:00:19.630 --> 00:00:22.590
+This kind of conflict is common
+and it can be very stressful
+
+00:00:22.590 --> 00:00:24.840
+as we struggle
+to make the best decision.
+
+00:00:24.840 --> 00:00:26.130
+Imagine you are contacted
+
+00:00:26.130 --> 00:00:27.810
+by a colleague
+in another department
+
+00:00:27.810 --> 00:00:30.700
+who claims to be working
+with one of our executives.
+
+00:00:30.700 --> 00:00:33.590
+The colleague says that the
+executive has become flustered
+
+00:00:33.590 --> 00:00:36.060
+and cannot locate credentials
+for an online system
+
+00:00:36.060 --> 00:00:37.760
+that she knows
+you have access to.
+
+00:00:38.750 --> 00:00:41.170
+Do you act like the hero
+and provide your credentials,
+
+00:00:41.170 --> 00:00:42.480
+knowing very well that doing
+
+00:00:42.480 --> 00:00:44.980
+so could violate our information
+security policies
+
+00:00:45.500 --> 00:00:48.290
+or do you refer the colleague
+to our IT Department,
+
+00:00:48.290 --> 00:00:50.630
+knowing that it may cause
+the executive time,
+
+00:00:50.630 --> 00:00:53.730
+and that you may be perceived
+as having been unhelpful?
+
+00:00:53.730 --> 00:00:55.000
+It can feel like
+you’re being pulled
+
+00:00:55.000 --> 00:00:56.600
+in two different directions.
+
+00:00:57.670 --> 00:01:00.220
+The good news is that by the end
+of this brief video,
+
+00:01:00.220 --> 00:01:01.540
+you’ll have the tools
+to confidently
+
+00:01:01.540 --> 00:01:03.340
+make the right choices
+for both yourself
+
+00:01:03.340 --> 00:01:06.460
+and for the company avoid,
+potential disciplinary action
+
+00:01:07.080 --> 00:01:09.230
+and feel a whole lot better
+in the process.
+
+00:01:11.140 --> 00:01:14.220
+The first step to understanding
+Information Security
+
+00:01:14.220 --> 00:01:15.820
+is being able to define it.
+
+00:01:16.510 --> 00:01:20.250
+Information Security
+or "InfoSec", relates to the steps
+
+00:01:20.250 --> 00:01:23.380
+we take to protect electronic
+and physical information,
+
+00:01:23.380 --> 00:01:26.390
+as well as ensure the integrity
+of our technology systems.
+
+00:01:27.300 --> 00:01:29.930
+Consider for a minute just
+how much sensitive information
+
+00:01:29.930 --> 00:01:31.650
+we have on our systems -
+
+00:01:31.650 --> 00:01:34.380
+like financial details,
+health information,
+
+00:01:34.380 --> 00:01:37.810
+personally identifiable
+information, trade secrets,
+
+00:01:37.810 --> 00:01:39.410
+and other
+intellectual property.
+
+00:01:40.460 --> 00:01:42.780
+Without security
+measures, our organization
+
+00:01:42.780 --> 00:01:44.950
+becomes vulnerable
+to data breaches
+
+00:01:44.950 --> 00:01:48.430
+where unauthorized people
+can access, modify, disclose
+
+00:01:48.430 --> 00:01:50.550
+or even destroy
+our valuable information.
+
+00:01:51.650 --> 00:01:52.880
+Once we understand
+
+00:01:52.880 --> 00:01:55.090
+the definition
+of Information Security,
+
+00:01:55.090 --> 00:01:56.450
+the next step is to be alert
+
+00:01:56.450 --> 00:01:59.300
+to those trying to compromise
+our systems and data.
+
+00:01:59.300 --> 00:02:01.670
+Examples include
+"social engineers"
+
+00:02:01.670 --> 00:02:03.340
+who are people
+trying to manipulate us
+
+00:02:03.340 --> 00:02:05.720
+into divulging
+confidential information
+
+00:02:05.720 --> 00:02:08.080
+or allowing unauthorized
+access to our systems.
+
+00:02:08.910 --> 00:02:10.800
+This could be a caller
+pretending to be someone
+
+00:02:10.800 --> 00:02:12.240
+in a position of authority
+
+00:02:12.240 --> 00:02:14.670
+or someone you think you should
+trust sending you an email
+
+00:02:14.670 --> 00:02:16.719
+encouraging you
+to download new software.
+
+00:02:17.510 --> 00:02:20.240
+In the latter situation
+this "phishing" email
+
+00:02:20.240 --> 00:02:22.180
+may contain downloads
+and links infected
+
+00:02:22.180 --> 00:02:25.970
+with what’s called "malware",
+like viruses and trojans,
+
+00:02:25.970 --> 00:02:27.910
+maliciously designed
+to gather usernames
+
+00:02:27.910 --> 00:02:30.390
+and passwords, destroy content,
+
+00:02:30.390 --> 00:02:33.480
+steal trade secrets,
+or even lock systems for ransom.
+
+00:02:34.840 --> 00:02:37.700
+We should always be alert to
+anyone attempting to gain access
+
+00:02:37.700 --> 00:02:39.300
+to our system or facilities.
+
+00:02:39.820 --> 00:02:42.730
+Even when our devices are locked,
+an experienced hacker
+
+00:02:42.730 --> 00:02:45.880
+can enter systems if they have
+physical access and enough time.
+
+00:02:46.910 --> 00:02:49.380
+Be sure to contact
+building security immediately
+
+00:02:49.380 --> 00:02:52.940
+if you notice any person, whether
+an employee or a stranger,
+
+00:02:52.940 --> 00:02:54.540
+in any unauthorized area.
+
+00:02:55.740 --> 00:02:58.540
+Finally, to ensure information
+security,
+
+00:02:58.540 --> 00:03:01.540
+we all must TAKE SPECIFIC
+PRECAUTIONS such as:
+
+00:03:01.540 --> 00:03:03.530
+Make timely system updates
+and routinely
+
+00:03:03.530 --> 00:03:05.780
+run pre-approved
+anti-virus applications
+
+00:03:05.780 --> 00:03:07.590
+as instructed by
+our IT department.
+
+00:03:08.370 --> 00:03:10.480
+Only download items
+from trusted sources.
+
+00:03:11.560 --> 00:03:13.860
+Lock computer, laptop
+and phone screens
+
+00:03:13.860 --> 00:03:15.460
+when they are not in use.
+
+00:03:16.040 --> 00:03:18.770
+Always create unique passwords
+that are easy to remember
+
+00:03:18.770 --> 00:03:20.570
+but difficult
+for others to guess,
+
+00:03:20.570 --> 00:03:23.380
+incorporating a variety
+of lower and uppercase letters,
+
+00:03:23.380 --> 00:03:26.060
+numbers and symbols,
+with at least eight characters.
+
+00:03:27.340 --> 00:03:29.470
+Never give your passwords
+to anyone without first
+
+00:03:29.470 --> 00:03:31.170
+consulting with our
+IT Department.
+
+00:03:31.950 --> 00:03:34.720
+Never leave devices unattended
+or in public view
+
+00:03:34.720 --> 00:03:37.370
+and report instances of theft
+to IT immediately.
+
+00:03:38.700 --> 00:03:41.260
+Never send confidential
+information via email
+
+00:03:41.260 --> 00:03:43.030
+or instant message.
+
+00:03:43.030 --> 00:03:46.040
+Always use Virtual Private
+Networking or VPN
+
+00:03:46.550 --> 00:03:50.050
+instead of using any unsecure or
+possibly dangerous public Wi-Fi.
+
+00:03:51.380 --> 00:03:55.000
+And of course, immediately
+report any suspected data breach
+
+00:03:55.000 --> 00:03:58.380
+to our IT, security,
+or compliance departments,
+
+00:03:58.380 --> 00:04:00.880
+no matter how insignificant
+you think it might be.
+
+00:04:01.890 --> 00:04:04.380
+In summary, the key
+is to understand
+
+00:04:04.380 --> 00:04:06.510
+what information security is.
+
+00:04:06.510 --> 00:04:09.180
+Stay alert to those trying
+to breach our systems
+
+00:04:09.180 --> 00:04:10.830
+and take all
+of the safety precautions,
+
+00:04:10.830 --> 00:04:12.430
+outlined by our IT Department.
+
+00:04:13.080 --> 00:04:16.230
+Three simple steps to ensuring
+information and system security.
+
+00:04:18.800 --> 00:04:20.060
+Going back to the situation
+
+00:04:20.060 --> 00:04:22.310
+involving the phone call
+from your colleague,
+
+00:04:22.310 --> 00:04:23.660
+it’s now probably pretty clear
+
+00:04:23.660 --> 00:04:26.860
+that you can’t provide your
+credentials for the executive.
+
+00:04:26.860 --> 00:04:29.540
+In the short run, it may feel
+like you didn’t help the team
+
+00:04:29.540 --> 00:04:32.150
+in a moment of need,
+but in the long run,
+
+00:04:32.150 --> 00:04:35.280
+you’ll avoid the consequences
+of violating company policy.
+
+00:04:35.280 --> 00:04:37.920
+Our information security
+will remain strong,
+
+00:04:37.920 --> 00:04:39.330
+and your colleagues
+will recognize
+
+00:04:39.330 --> 00:04:41.610
+that you are a person
+who does the right thing,
+
+00:04:41.610 --> 00:04:43.509
+even when it seems
+difficult to do so.
+
+00:04:44.650 --> 00:04:46.999
+Now, doesn’t that make you
+feel better already?
+
+00:04:48.280 --> 00:04:50.790
+If you have any questions
+about Information Security
+
+00:04:50.790 --> 00:04:53.040
+or other compliance issues,
+please contact
+
+00:04:53.040 --> 00:04:56.200
+our IT or Compliance Department.
+We are here to help!
+
+00:04:56.200 --> 00:05:00.830
+[Music]

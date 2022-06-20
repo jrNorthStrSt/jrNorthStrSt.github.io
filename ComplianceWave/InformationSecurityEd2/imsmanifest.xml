@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<manifest identifier="MANIFEST" version="1"
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+	</metadata>
+	<organizations default="AHUB">
+    <organization identifier="AHUB">
+      <title><![CDATA[Compliance Brief Interactive - Information Security - 2nd Edition]]></title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title><![CDATA[Compliance Brief Interactive - Information Security - 2nd Edition]]></title>
+      </item>
+    </organization>
+	</organizations>
+	<resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+      </metadata>
+      <file href="index.html" />
+      <file href='core/s/css/bootstrap-theme.min.css' />
+<file href='core/s/css/bootstrap.min.css' />
+<file href='core/s/css/font-awesome.min.css' />
+<file href='core/s/css/jquery-ui.min.css' />
+<file href='core/s/css/video-jsa.min.css' />
+<file href='core/s/css/video-jsb-4-11-4.ie7.min.css' />
+<file href='core/s/css/z_main.css' />
+<file href='items/t/css/icons_fonts.css' />
+<file href='items/t/css/style.css' />
+<file href='items/t/v/css/style.css' />
+<file href='core/s/js/aab_jquery-1.10.2.min.js' />
+<file href='core/s/js/ab_jquery-ui-1.10.3.mobile.touch-p.js' />
+<file href='core/s/js/ac_jquery.cookie.json2.migrate1.2.1.js' />
+<file href='core/s/js/bb_videojs-ie8.min.ie8.js' />
+<file href='core/s/js/bb_videojs.js' />
+<file href='core/s/js/bb_videojs_4_11_1.ie7.js' />
+<file href='core/s/js/ce_underscore-min.js' />
+<file href='core/s/js/cf_backbone-min.js' />
+<file href='core/s/js/cg_backbone.marionette.min.js' />
+<file href='core/s/js/cm_soundmanager2-nodebug-jsmin.js' />
+<file href='core/s/js/za_connect.handler.js' />
+<file href='core/s/js/zc_models.ext.js' />
+<file href='core/s/js/zd_views.js' />
+<file href='core/s/js/zz_app.js' />
+<file href='items/t/js/main_.js' />
+<file href='core/js/scorm.api.handler.js' />
+
+    </resource>
+	</resources>
+</manifest>

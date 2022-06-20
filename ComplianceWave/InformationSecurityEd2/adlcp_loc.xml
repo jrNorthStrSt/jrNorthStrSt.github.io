@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="no" ?>
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+  <general>
+    <title>
+      <langstring xml:lang="en-US"><![CDATA[Compliance Brief Interactive - Information Security - 2nd Edition]]></langstring>
+    </title>
+    <catalogentry>
+      <catalog>ahub.co</catalog>
+      <entry>
+         <langstring xml:lang="en-US"><![CDATA[Compliance Brief Interactive - Information Security - 2nd Edition]]></langstring>
+      </entry>
+    </catalogentry>
+    <language>en-US</language>
+    <description>
+      <langstring xml:lang="en-US"><![CDATA[2nd Ed - Information Security]]></langstring>
+    </description>
+    <aggregationlevel>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">3</langstring>
+      </value>
+    </aggregationlevel>
+  </general>
+  <lifecycle>
+    <version>
+      <langstring xml:lang="x-none">1.0</langstring>
+    </version>
+    <status>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">Final</langstring>
+      </value>
+    </status>
+    <contribute>
+      <role>
+        <source>
+          <langstring xml:lang="x-none">LOMv1.0</langstring>
+        </source>
+        <value>
+          <langstring xml:lang="x-none">Author</langstring>
+        </value>
+      </role>
+      <centity>
+        <vcard>BEGIN:vcard ORG:AuthoringHub END:vcard</vcard>
+      </centity>
+      <date>
+         <datetime>2021-04-13 19:55 PM</datetime>
+      </date>
+    </contribute>
+  </lifecycle>
+  <metametadata>
+    <metadatascheme>ADL SCORM(TM) 1.2</metadatascheme>
+  </metametadata>
+  <technical>
+    <format>text/html</format>
+    <location type="URI">.</location>
+  </technical>
+<educational>
+<learningresourcetype>
+<source>
+<langstring xml:lang="x-none">LOMv1.0</langstring>
+</source>
+<value>
+<langstring xml:lang="x-none">Slide</langstring>
+</value>
+</learningresourcetype>
+</educational>
+  <rights>
+    <cost>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">no</langstring>
+      </value>
+    </cost>
+    <copyrightandotherrestrictions>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">yes</langstring>
+      </value>
+    </copyrightandotherrestrictions>
+	<description>
+		<langstring xml:lang="en-US">2018 AuthoringHub</langstring>
+	</description>
+  </rights>
+  <classification>
+    <purpose>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">Educational Objective</langstring>
+      </value>
+    </purpose>
+    <description>
+      <langstring xml:lang="en-US"><![CDATA[Compliance Brief Interactive - Information Security - 2nd Edition]]></langstring>
+    </description>
+  </classification>
+</lom>

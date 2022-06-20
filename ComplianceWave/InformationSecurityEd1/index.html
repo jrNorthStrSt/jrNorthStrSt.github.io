@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Compliance Brief Interactive - Information Security</title>
+        <meta name="generator" content="AuthoringHub3">
+        <meta name="application-name" content="AuthoringHub.com" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link rel='stylesheet' type='text/css' href='core/s/css/bootstrap-theme.min.css?202205311525541355' >
+<link rel='stylesheet' type='text/css' href='core/s/css/bootstrap.min.css?202205311525541355' >
+<link rel='stylesheet' type='text/css' href='core/s/css/font-awesome.min.css?202205311525541355' >
+<link rel='stylesheet' type='text/css' href='core/s/css/jquery-ui.min.css?202205311525541355' >
+<link rel='stylesheet' type='text/css' href='core/s/css/video-jsa.min.css?202205311525541355' >
+<!--[if IE 7]>
+<link rel='stylesheet' type='text/css' href='core/s/css/video-jsb-4-11-4.ie7.min.css?202205311525541355' >
+<![endif]-->
+<link rel='stylesheet' type='text/css' href='core/s/css/z_main.css?202205311525541355' >
+<link rel='stylesheet' type='text/css' href='items/t/css/icons_fonts.css?202205311525541355' >
+<link rel='stylesheet' type='text/css' href='items/t/css/style.css?202205311525541355' >
+<link rel='stylesheet' type='text/css' href='items/t/v/css/style.css?202205311525541355' >
+
+        <script src='core/s/js/data.js' type='text/javascript' ></script>
+<script src='core/s/js/aab_jquery-1.10.2.min.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/ab_jquery-ui-1.10.3.mobile.touch-p.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/ac_jquery.cookie.json2.migrate1.2.1.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/bb_videojs-ie8.min.ie8.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/bb_videojs.js?202205311525541385' type='text/javascript' ></script>
+<!--[if IE 7]>
+<script src='core/s/js/bb_videojs_4_11_1.ie7.js?202205311525541385' type='text/javascript' ></script>
+<![endif]-->
+<script src='core/s/js/ce_underscore-min.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/cf_backbone-min.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/cg_backbone.marionette.min.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/cm_soundmanager2-nodebug-jsmin.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/za_connect.handler.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/zc_models.ext.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/zd_views.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/s/js/zz_app.js?202205311525541385' type='text/javascript' ></script>
+<script src='items/t/js/main_.js?202205311525541385' type='text/javascript' ></script>
+<script src='core/js/scorm.api.handler.js?202205311525541405' type='text/javascript' ></script>
+
+    </head>
+    <body>
+		<div id="theme"></div>
+        <div id="theme-variation-templates"></div>
+        <div id="theme-templates"></div>
+        <div id="templates"><script id="aut-t-formatThemeView-addon" type="text/html">
+	<fieldset>
+		<div class="aut-formatView-title">
+			<span>Assessment question header title. # can be used to display question number:</span>
+		</div>
+        <div class="aut-formatView-row">
+			<input id="aut-theme-assementQuestionHeader" type="text" value="<% if(attributes['assementQuestionHeader'])print(attributes['assementQuestionHeader']); %>" style="display: table-row; width:100%"> 
+        </div>
+	</fieldset>
+	<fieldset>
+		<div class="aut-formatView-title">
+			<span>Assessment correct feedback header</span>
+		</div>
+        <div class="aut-formatView-row">
+			<input id="aut-theme-assessmentFeedbackCorrectTextColorCheck" type="checkbox" value="1" <% if(attributes['assessmentFeedbackCorrectTextColorCheck'])print('checked="checked"'); %>> Text color <input id="aut-theme-assessmentFeedbackCorrectTextColor" type="color" value="<% if(attributes['assessmentFeedbackCorrectTextColor'])print(attributes['assessmentFeedbackCorrectTextColor']); %>" style="display: table-row;"> 
+		</div>
+		<div class="aut-formatView-row">
+			<input id="aut-theme-assessmentFeedbackCorrectBubbleTextColorCheck" type="checkbox" value="1" <% if(attributes['assessmentFeedbackCorrectBubbleTextColorCheck'])print('checked="checked"'); %>> Bubble text color <input id="aut-theme-assessmentFeedbackCorrectBubbleTextColor" type="color" value="<% if(attributes['assessmentFeedbackCorrectBubbleTextColor'])print(attributes['assessmentFeedbackCorrectBubbleTextColor']); %>" style="display: table-row;"> 
+        </div>
+	</fieldset>
+	<fieldset>
+		<div class="aut-formatView-title">
+			<span>Assessment incorrect feedback header</span>
+		</div>
+        <div class="aut-formatView-row">
+			<input id="aut-theme-assessmentFeedbackIncorrectTextColorCheck" type="checkbox" value="1" <% if(attributes['assessmentFeedbackIncorrectTextColorCheck'])print('checked="checked"'); %>> Text color <input id="aut-theme-assessmentFeedbackIncorrectTextColor" type="color" value="<% if(attributes['assessmentFeedbackIncorrectTextColor'])print(attributes['assessmentFeedbackIncorrectTextColor']); %>" style="display: table-row;"> 
+		</div>
+		<div class="aut-formatView-row">
+			<input id="aut-theme-assessmentFeedbackIncorrectBubbleTextColorCheck" type="checkbox" value="1" <% if(attributes['assessmentFeedbackIncorrectBubbleTextColorCheck'])print('checked="checked"'); %>> Bubble text color <input id="aut-theme-assessmentFeedbackIncorrectBubbleTextColor" type="color" value="<% if(attributes['assessmentFeedbackIncorrectBubbleTextColor'])print(attributes['assessmentFeedbackIncorrectBubbleTextColor']); %>" style="display: table-row;"> 
+        </div>
+	</fieldset>
+	<fieldset>
+        <div class="aut-formatView-row" style="display:table">
+            <input id="aut-theme-assementSingleView" type="checkbox" value="1" <% if(attributes['assementSingleView'])print('checked="checked"'); %> style="display: table-cell;"> 
+            <span style="display:table-cell;padding-left: 5px;"> Assessment 'Single View' - question and feedback on same view</span>
+        </div>
+	</fieldset>
+	<fieldset>
+        <div class="aut-formatView-row" style="display:table">
+            <input id="aut-theme-assessmentIncorrectAnswerHighlightCorrect" type="checkbox" value="1" <% if(attributes['assessmentIncorrectAnswerHighlightCorrect'])print('checked="checked"'); %> style="display: table-cell;"> 
+            <span style="display:table-cell;padding-left: 5px;"> Assessment incorrect answers highlight correct answer</span>
+        </div>
+	</fieldset>
+</script>
+
+<script id="thm-t-main" type="text/html">
+	<div id="thm-loading"><div class="thm-page-loading"></div></div>
+	<div id="thm-header" class="thm-nav">
+        <div id="thm-header-logo" style="<% if( ahub.model.get('attributes').get('logo-image') )print('background-image:url('+ahub.srcs.cv+'resources/'+ahub.model.get('attributes').get('logo-image')+');') %> "></div>
+        <div id="thm-contents-list"></div> 
+ 	 </div> 
+ 	 <div id="thm-materials" class="thm-page-loading" style="<% if(ahub.model.get('langId')==19)print('word-break:keep-all') %>" ></div> 
+ 	 <div id="thm-footer" class="thm-nav"> 
+        <div id="thm-footer-title"><h5><%=ahub.model.get('title')%></h5></div>
+    </div>
+	<div id="thm-confirm-prompt"></div>
+</script>
+
+<script id="thm-t-background" type="text/html">
+	<div id="thm-background" 
+	<% if( ahub.model.get('attributes').get('background-color') || ahub.model.get('attributes').get('background-image') ){ %> style=" 
+			<% if(ahub.model.get('attributes').get('background-image') ){ %>
+				background-image: url(<%= ahub.srcs.cv %>resources/<%=ahub.model.get('attributes').get('background-image')%> );
+			<% } %>
+			<% if( ahub.model.get('attributes').get('background-repeat') ){ %>
+				background-repeat: <%=ahub.model.get('attributes').get('background-repeat') %>;		
+			<% } %>
+			<% if( ahub.model.get('attributes').get('background-color') ){ %>
+				background-color: <%=ahub.model.get('attributes').get('background-color') %>;
+			<% } %>
+		<% } else {%>
+			background-color:#eee %>;
+		<% } %>
+        ">
+	</div>
+</script>
+
+<script id="thm-t-contentsListChapterItem" type="text/html">
+  <ul class="thm-contents-pages-list"></ul>
+</script>
+<script id="thm-t-contentsListPageItem" type="text/html">
+	<span></span>
+</script>
+
+<script id="thm-t-resumeModulePrompt" type="text/html">
+   <h4><%= ahub.language.resumePrompt %></h4>
+   <a id="thm-initResumePrompt-yes-btn" class="thm-modal-btn"><%= ahub.language.resumePromptYes %></a>
+   <a id="thm-initResumePrompt-no-btn" class="thm-modal-btn"><%= ahub.language.resumePromptNo %></a>
+</script>
+<script id="thm-t-contentsListPageItem" type="text/html">
+    <% if(attributes['newflag']){ %><span class="thm-menu-newflag" <% if(ahub.theme.showNewFlag){%>style="display:block"<% } %>>new</span><% } %>
+    <span class="thm-menu-pTitle"><%= title %></span>
+		<span class="thm-t-menu-cExpand"></span>
+</script><script id="thm-t-main" type="text/html">
+	<div id="thm-loading"><div class="thm-page-loading"></div></div>
+	<div id="thm-header" class="thm-nav">
+ 		<div class="thm-nav-wrapper">
+      <img id="thm-logo" src="<%= ahub.srcs.t %>/resources/logo.png"></img>
+ 			<div class="thm-nav-btns-wrapper">
+ 				<div id="thm-contents-btn" class="thm-nav-cell thm-nav-btn"></div>
+ 				<div id="thm-glossary-btn" class="thm-nav-cell thm-nav-btn"></div>
+ 				<div id="thm-resources-btn" class="thm-nav-cell thm-nav-btn"></div>
+ 				 <div id="thm-help-btn" class="thm-nav-cell thm-nav-btn"></div> 
+ 				 <div id="thm-exit-btn" class="thm-nav-cell thm-nav-btn"></div> 
+ 			 </div> 
+ 		 </div> 
+ 	 </div> 
+ 	 <div id="thm-materials" class="thm-page-loading"></div> 
+ 	 <div id="thm-footer" class="thm-nav"> 
+ 		 <div class="thm-nav-wrapper"> 
+ 			 <div id="thm-progress" class="thm-nav-cell"></div> 
+             <div class="thm-nav-cell thm-disclosure"><%= ahub.languages[ahub.data.langId].disclamer %></div> 
+ 			 <div class="thm-nav-btns-wrapper"> 
+ 				 <div id="thm-replay-btn" class="thm-nav-cell thm-nav-btn"></div> 
+                 <div id="thm-narration-btn" class="thm-nav-cell thm-nav-btn"></div> 
+ 				 <div id="thm-previouspage-btn" class="thm-nav-cell thm-nav-btn thm-pagesnav-btn"></div> 
+ 				 <div id="thm-counter" class="thm-nav-cell"></div> 
+ 				 <div id="thm-nextpage-btn" class="thm-nav-cell thm-nav-btn thm-pagesnav-btn"></div> 
+ 			 </div> 
+ 		 </div> 
+ 	 </div> 
+ 	 <div id="thm-modals"> 
+ 				 <div id="thm-contents-list-section" class="thm-modal-section"> 
+ 					 <div class="thm-modal-header"> 
+            <div class="thm-modal-close"><a href="#"></a></div> 
+ 						<div class="thm-modal-title"><%= ahub.languages[ahub.data.langId].mainMenu %></div> 
+ 					 </div> 
+ 					 <div id="thm-contents-list" class="thm-allow-scrollable"></div> 
+ 				 </div> 
+ 				 <div id="thm-glossary-list-section" class="thm-modal-section"> 
+               <div class="thm-modal-header"> 
+                   <div class="thm-modal-close"><a href="#"></a></div> 
+                   <div class="thm-modal-title"><%= ahub.languages[ahub.data.langId].glossary %></div> 
+               </div> 
+               <div id="thm-glossary-section-left" class="thm-glossary-section"> 
+                  <div class="thm-glossary-subsection"> 
+                       <div class="thm-glossary-section-title"><%= ahub.languages[ahub.data.langId].glossaryListTitle %></div> 
+                       <div id="thm-glossary-list" class="thm-allow-scrollable"></div> 
+                   </div> 
+               </div> 
+               <div id="thm-glossary-section-right" class="thm-glossary-section"> 
+                   <div class="thm-glossary-subsection thm-glossary-section-player"> 
+                       <div class="thm-glossary-narration-play-btn"><a href="#"></a></div> 
+  				             <div class="thm-progress-wrapper thm-glossary-narration-progress">
+                        <div class="thm-progress-move thm-modal-narration-progress-move"></div>
+                       </div> 
+                   </div> 
+                   <div class="thm-glossary-subsection thm-glossary-section-definition"> 
+                       <div class="thm-glossary-section-title"><%= ahub.languages[ahub.data.langId].glossaryTerm %></div> 
+                       <div id="thm-glossary-definition-title"></div> 
+                       <div class="thm-glossary-section-title"><%= ahub.languages[ahub.data.langId].glossaryDefinition %></div> 
+                       <div id="thm-glossary-definition-description"></div> 
+                   </div> 
+              </div> 
+ 				    </div> 
+ 				    <div id="thm-resources-list-section" class="thm-modal-section"> 
+ 					     <div class="thm-modal-header"> 
+                 <div class="thm-modal-close"><a href="#"></a></div> 
+ 						     <div class="thm-modal-title"><%= ahub.languages[ahub.data.langId].resources %></div> 
+ 					     </div> 
+ 					   <div id="thm-resources-list"></div> 
+           </div> 
+ 				 <div id="thm-exit-instructions" class="thm-modal-section thm-modal-section-alert"></div> 
+      <div id="thm-initresumeprompt" class="thm-modal-section thm-modal-section-alert"> </div> 
+	 </div> 
+	 <div id="thm-help-instructions" class="thm-modal-section"><h4> <%= ahub.languages[ahub.data.langId].clickToContinue %> </h4></div>
+</script>
+<script id="thm-t-contentsBtn" type="text/html">
+  <a href="#"></a><div id="thm-contents-btn-hl"></div>
+</script>
+<script id="thm-t-contentsListChapterItem" type="text/html">
+  <h4><%= title %></h4><ul class="thm-contents-pages-list"></ul>
+</script>
+<script id="thm-t-contentsListPageItem" type="text/html">
+  <%= title %>
+</script>
+<script id="thm-t-glossaryBtn" type="text/html">
+   <a href="#"></a><div id="thm-glossary-btn-hl"></div>
+</script>
+<script id="thm-t-glossaryListItem" type="text/html">
+   <%= title %>
+</script>
+<script id="thm-t-resourcesBtn" type="text/html">
+  <a href="#"></a><div id="thm-resources-btn-hl"></div>
+</script>
+<script id="thm-t-resourcesListItem" type="text/html">
+  <h4><%= title %></h4><p><%= description %></p><a href="<%=link%>" target="_blank">LAUNCH</a>
+</script>
+<script id="thm-t-helpBtn" type="text/html">
+   <a href="#"></a><div id="thm-help-btn-hl"></div>
+</script>
+<script id="thm-t-exitBtn" type="text/html">
+  <a href="#"></a><div id="thm-exit-btn-hl">
+</script>
+<script id="thm-t-exitInstructions" type="text/html">
+  <h4> <%= ahub.languages[ahub.data.langId].exitTitle%> </h4>
+  <a id="thm-exit-yes-btn" class="thm-modal-btn thm-modal-exit-btn"><%= ahub.languages[ahub.data.langId].exitYesBtn %></a>
+  <a id="thm-exit-no-btn" class="thm-modal-btn thm-modal-exit-btn"><%= ahub.languages[ahub.data.langId].exitNoBtn %></a>
+</script>
+<script id="thm-t-replayBtn" type="text/html">
+  <a href="#"></a>
+</script>
+<script id="thm-t-narrationBtn" type="text/html">
+  <a href="#"></a>
+</script>
+<script id="thm-t-previousBtn" type="text/html">
+   <a href="#"></a>
+</script>
+<script id="thm-t-nextBtn" type="text/html">
+   <a href="#"></a>
+</script>
+<script id="thm-t-initResumePrompt" type="text/html">
+   <h4>ahub.language.resumePrompt</h4>
+   <a id="thm-initResumePrompt-yes-btn" class="thm-modal-btn"><%= ahub.languages[ahub.data.langId].yes %></a>
+   <a id="thm-initResumePrompt-no-btn" class="thm-modal-btn"><%= ahub.languages[ahub.data.langId].no %></a>
+</script>
+<script id="thm-t-progress" type="text/html">
+   <div class="thm-progress-move"></div>
+</script>
+<script id="thm-t-counter" type="text/html">
+    <%= (currentPageIndex+1) +' '+ ahub.languages[ahub.data.langId].pageCountOf +' '+ totalPages %>
+</script>
+
+<script id="thm-t-background" type="text/html">
+	<div id="thm-background" 
+	<% if( ahub.model.get('attributes').get('background-color') || ahub.model.get('attributes').get('background-image') ){ %> style=" 
+			<% if(ahub.model.get('attributes').get('background-image') ){ %>
+				background-image: url(<%= ahub.srcs.cv %>resources/<%=ahub.model.get('attributes').get('background-image')%> );
+			<% } %>
+			<% if( ahub.model.get('attributes').get('background-repeat') ){ %>
+				background-repeat: <%=ahub.model.get('attributes').get('background-repeat') %>;		
+			<% } %>
+			<% if( ahub.model.get('attributes').get('background-color') ){ %>
+				background-color: <%=ahub.model.get('attributes').get('background-color') %>;
+			<% } %>
+		<% } else {%>
+			background-color:#eee %>;
+		<% } %>
+        ">
+	</div>
+</script>
+
+<script id="thm-t-chapter" type="text/html">
+	<div class="thm-chapter-pages"></div>
+</script>
+<script id="thm-t-page" type="text/html">
+	<div class="thm-page-header" style=" <% if( ahub.model.get('attributes').get('pages-header-bgcolor') )print('background-color:'+ahub.model.get('attributes').get('pages-header-bgcolor')) %> ">
+		<h3 class="thm-p-title"><%= title %></h3>
+		<h4 class="thm-p-description"><%= description %></h4>
+	</div>
+	<div class="thm-page-contents"></div>
+</script>
+<script id="thm-t-page-contentwrapper" type="text/html">
+	<%if(showTitle){%><div class="aut-page-content-title"><span class="aut-page-content-author"></span> <i class="fa fa-bolt"></i> <span class="aut-page-content-titleid"><%= title %></span></div><%}%>
+  <div class="thm-page-content-object"></div>
+</script>
+
+<script id="thm-t-content-element-item" type="text/html">
+	<%= text %>
+</script>
+
+<script id="thm-t-content-video-item" type="text/html">
+    <video poster="<% print(ahub.srcs.toPath( settings.poster ) ) %>" class="video-js vjs-default-skin vjs-big-play-centered" style="height: 100%; width: auto;">
+      <% if( window.location.host.toLowerCase().indexOf('compliancewire.com')>-1 ){ %>
+        <source src="<% print(ahub.srcs.clearToken('https://'+ahub.srcs.cv_ahub+src)) %>" type="video/mp4">
+      <% } %>
+      <% if(!!src && src[src.length-1] != '/'){ %>
+			  <source src="<% print(ahub.srcs.toPath( src ) ) %>" type="video/mp4">
+      <% } %>
+      <% if(!!settings.streaming){ %>
+        <source src="<%= settings.streaming %>" type="video/mp4">
+      <% } %>
+      <% if(!!settings.webvtt){ %>
+        <track kind="captions" src="<% print(ahub.srcs.toPath( settings.webvtt ) ) %>" srclang="en" label="English">
+      <% } %>
+      Your browser does not support the video tag.
+    </video>
+</script>
+
+<script id="thm-t-content-audio-item" type="text/html">
+	<audio>
+        <source src="<%=src%>" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="thm-content-audio-controlbar">
+        <div class="thm-content-audio-controls-group">
+            <div class="thm-content-audio-control-icon thm-content-audio-control-playback"><i class="material-icons">play_arrow</i></div>
+        </div>
+        <div class="thm-content-audio-controls-group thm-content-audio-control-slider-time">
+            <div class="thm-content-audio-control-slider-container">
+                <div class="thm-content-audio-control-slider-rail"></div>
+                <div class="thm-content-audio-control-slider-buff"></div>
+                <div class="thm-content-audio-control-slider-knob"></div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="thm-t-assessmentQuiz" type="text/html">
+	<div class="thm-page-content-assessment-quiz-question-number"></div>
+	<div class="thm-page-content-assessment-quiz-main"></div>
+	<div class="thm-page-content-assessment-quiz-controls"></div>
+</script>
+<script id="thm-t-assessmentQuizQuestion" type="text/html">
+	<div class="thm-page-content-assessment-quiz-question-text"></div>
+    <div class="thm-page-content-assessment-quiz-question-image"></div>
+    <div class="thm-page-content-assessment-quiz-question-content">
+        <div class="thm-page-content-assessment-quiz-question-answers"></div>
+        <div class="thm-page-content-assessment-quiz-question-feedback"></div>
+    </div>
+</script>
+<script id="thm-t-assessmentQuizAnswer" type="text/html">
+    <div class="thm-page-content-assessment-quiz-answer-letter"></div>
+	<div class="thm-page-content-assessment-quiz-answer-text"></div>
+</script>
+<script id="thm-t-assessmentQuizControls" type="text/html">
+	<%=message%>
+    <span></span>
+</script>
+<script id="thm-t-assessmentQuizScore" type="text/html">
+	<%= feedbackText ? feedbackText : ahub.language.passQuizMsg %>	
+</script></div>
+    </body>
+</html>
